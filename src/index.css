@@ -200,16 +200,19 @@ Form{
 }
 
 a:link {
-  color: white;
+  color: gray;
   text-decoration: none;
-  
 }
 
 a:visited {
-  color: white;
+  color: gray;
   text-decoration: none;
 }
 
 a:hover {
   color: gray !important; 
+}
+
+a:active{
+  text-decoration: underline #f9ae82;
 }
