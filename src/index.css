@@ -35,10 +35,13 @@ h2{
   justify-content: center;
   flex-direction: column;
   border-radius: 10px;
+  
 }
 
 .bgrad{
-  background: linear-gradient(45deg,#c7fedb,#fbd686,#f9ae82); 
+  background: linear-gradient(45deg,#c7fedb,#fbd686,#f9ae82);
+  width: 90% !important; 
+  margin-left: 30px !important;
 }
 
 h1 {
@@ -200,12 +203,12 @@ Form{
 }
 
 a:link {
-  color: gray;
+  color: black;
   text-decoration: none;
 }
 
 a:visited {
-  color: gray;
+  color: black;
   text-decoration: none;
 }
 
@@ -215,4 +218,27 @@ a:hover {
 
 a:active{
   text-decoration: underline #f9ae82;
+}
+
+.btn{
+  background: linear-gradient(315deg, #c7fedb,#fbd686,#f9ae82);
+  border: #c7fedb !important;
+  color: black !important; 
+  
+}
+
+.thumbnail{
+  width: 280px;
+  height: 150px;
+  margin: 10px;
+}
+
+.tech-badge{
+ display: flex;
+ justify-content: space-between;
+}
+
+.icon-footer{
+  width: 2%;
+  height: 2%;
 }
