@@ -62,7 +62,10 @@ export default function Projects() {
                 <span></span>
                 <div class="content">
                   <h2>Walking Tales</h2>
-                  <p></p>
+                  <p>
+                    {" "}
+                    <img src="./walkingtales.png" className="thumbnail" />
+                  </p>
                   <a href="#" target="_blank">
                     <Button>
                       <svg

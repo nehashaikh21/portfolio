@@ -15,7 +15,10 @@ export default function Contact() {
         <Row className="mb-5 mt-5">
           <Col className="text-center">
             <h2 className="mt-5 mb-5">Get in Touch</h2>
-            <a href="https://www.linkedin.com/in/neha-shaikh21/">
+            <a
+              href="https://www.linkedin.com/in/neha-shaikh21/"
+              target="_blank"
+            >
               <FontAwesomeIcon
                 icon={faLinkedin}
                 size="2x"
@@ -26,7 +29,7 @@ export default function Contact() {
                 }}
               />
             </a>
-            <a href="">
+            <a href="https://github.com/nehashaikh21" target="_blank">
               <FontAwesomeIcon
                 icon={faGithub}
                 size="2x"
@@ -38,7 +41,7 @@ export default function Contact() {
                 }}
               />
             </a>
-            <a href="">
+            <a href="https://discordapp.com/users/Neha#2513." target="_blank">
               <FontAwesomeIcon
                 icon={faDiscord}
                 size="2x"
