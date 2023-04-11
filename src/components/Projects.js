@@ -63,10 +63,12 @@ export default function Projects() {
                 <div class="content">
                   <h2>Walking Tales</h2>
                   <p>
-                    {" "}
                     <img src="./walkingtales.png" className="thumbnail" />
                   </p>
-                  <a href="#" target="_blank">
+                  <a
+                    href="https://github.com/nehashaikh21/walking_tales"
+                    target="_blank"
+                  >
                     <Button>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +82,10 @@ export default function Projects() {
                       </svg>
                     </Button>
                   </a>
-                  <a href="#" target="_blank">
+                  <a
+                    href="https://main--inquisitive-khapse-861b3d.netlify.app/"
+                    target="_blank"
+                  >
                     <Button>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
